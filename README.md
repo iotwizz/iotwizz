@@ -27,12 +27,12 @@ Designed with a highly robust and dynamic plugin architecture, developers and re
 | **Recon** | `recon/default_creds` | ✅ Ready | Test IoT default credentials (SSH/Telnet/HTTP/FTP) |
 | **Firmware** | `firmware/binwalk_analyzer` | ✅ Ready | Firmware analysis, extraction & string search |
 | **AI** | `ai/aiwizz` | ✅ Ready | Interactive AI hacking assistant (Gemini/OpenAI/Claude/Ollama) |
-| **Hardware** | `hardware/jtag_swd_scanner` | 🚧 Coming | JTAG/SWD debug interface scanner |
-| **Hardware** | `hardware/spi_flash_dumper` | 🚧 Coming | SPI flash firmware dumper |
-| **Protocol** | `protocol/mqtt_fuzzer` | 🚧 Coming | MQTT protocol fuzzer |
-| **Protocol** | `protocol/coap_fuzzer` | 🚧 Coming | CoAP protocol fuzzer |
-| **Wireless** | `wireless/ble_scanner` | 🚧 Coming | Bluetooth Low Energy scanner |
-| **Wireless** | `wireless/zigbee_sniffer` | 🚧 Coming | Zigbee/Z-Wave sniffer |
+| **Hardware** | `hardware/jtag_swd_scanner` | ✅ Ready | JTAG/SWD debug interface scanner |
+| **Hardware** | `hardware/spi_flash_dumper` | ✅ Ready | SPI flash firmware dumper |
+| **Protocol** | `protocol/mqtt_fuzzer` | ✅ Ready | MQTT protocol fuzzer |
+| **Protocol** | `protocol/coap_fuzzer` | ✅ Ready | CoAP protocol fuzzer |
+| **Wireless** | `wireless/ble_scanner` | ✅ Ready | Bluetooth Low Energy scanner |
+| **Wireless** | `wireless/zigbee_sniffer` | ✅ Ready | Zigbee/Z-Wave sniffer |
 
 ---
 
@@ -45,14 +45,22 @@ Designed with a highly robust and dynamic plugin architecture, developers and re
 git clone https://github.com/khushalmistry/iotwizz.git
 cd iotwizz
 
-# Install dependencies
+# Install dependencies (Optional if using the standalone binary)
 pip install -r requirements.txt
 
 # Install IoTwizz
 pip install -e .
 
-# Launch!
+# Launch using Python!
 iotwizz
+```
+
+### Standalone Binary (No Python Required)
+For macOS users, a fully self-contained binary is provided in the `dist` directory. You do not need to install Python or any dependencies to use it.
+
+```bash
+# Run the standalone executable directly
+./dist/iotwizz
 ```
 
 ### Usage
