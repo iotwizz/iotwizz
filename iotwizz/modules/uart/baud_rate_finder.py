@@ -49,8 +49,8 @@ class BaudRateFinder(BaseModule):
     def run(self):
         """Test common baud rates and identify the correct one."""
         port = self.get_option("PORT")
-        timeout = float(self.get_option("TIMEOUT") or 3)
-        read_duration = float(self.get_option("READ_DURATION") or 2)
+        timeout = self.get_option_float("TIMEOUT", default=3.0)
+        read_duration = self.get_option_float("READ_DURATION", default=2.0)
         list_ports = (self.get_option("LIST_PORTS") or "").lower() == "true"
 
         # List available ports if requested

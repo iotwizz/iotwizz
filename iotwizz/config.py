@@ -3,6 +3,7 @@ IoTwizz Configuration
 """
 
 import os
+import sys
 
 
 class Config:
@@ -13,9 +14,14 @@ class Config:
     VERSION = "1.0.0"
     AUTHOR = "Khushal Mistry"
 
-    # Paths
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    MODULES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "modules")
+    # PyInstaller creates a temp folder and stores path in _MEIPASS
+    if hasattr(sys, '_MEIPASS'):
+        BASE_DIR = sys._MEIPASS
+        MODULES_DIR = os.path.join(BASE_DIR, "iotwizz", "modules")
+    else:
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        MODULES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "modules")
+        
     DATA_DIR = os.path.join(BASE_DIR, "data")
     CREDS_FILE = os.path.join(DATA_DIR, "default_credentials.json")
 

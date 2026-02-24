@@ -114,14 +114,12 @@ class DefaultCreds(BaseModule):
         """Test credentials against the target."""
         target = self.get_option("TARGET")
         service = (self.get_option("SERVICE") or "ssh").lower()
-        port = self.get_option("PORT")
-        delay = float(self.get_option("DELAY") or 1)
+        port = self.get_option_int("PORT")
+        delay = self.get_option_float("DELAY", default=1.0)
         stop_on_success = (self.get_option("STOP_ON_SUCCESS") or "true").lower() == "true"
 
         if not port:
             port = self._get_default_port(service)
-        else:
-            port = int(port)
 
         if not port:
             error(f"Unknown service: {service}")
