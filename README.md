@@ -1,32 +1,78 @@
-# 🔧 IoTwizz — The Hardware Hacker's Playbook
+<div align="center">
 
-<p align="center">
-  <strong>A modular IoT security testing framework inspired by Metasploit.</strong><br>
-  Built for hardware hackers, firmware analysts, and IoT security researchers.
-</p>
+  <!-- Animated Header / Logo Area -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=%F0%9F%94%A7+IoTwizz;IoT+Security+Testing+Framework;Modular+%7C+AI-Powered+%7C+Open+Source" alt="IoTwizz Header" />
 
-## 📖 About IoTwizz
+  <br/><br/>
+
+  <!-- Shields / Badges -->
+  <p>
+    <img src="https://img.shields.io/github/license/khushalmistry/iotwizz?style=for-the-badge&color=CC0000&label=License&labelColor=1a1a2e" alt="License" />
+    <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e" alt="Python" />
+    <img src="https://img.shields.io/github/repo-size/khushalmistry/iotwizz?style=for-the-badge&color=00D4AA&label=Size&labelColor=1a1a2e" alt="Repo Size" />
+    <img src="https://img.shields.io/github/last-commit/khushalmistry/iotwizz?style=for-the-badge&color=FF6B6B&label=Last+Commit&labelColor=1a1a2e" alt="Last Commit" />
+    <img src="https://img.shields.io/github/stars/khushalmistry/iotwizz?style=for-the-badge&color=FFD93D&label=Stars&labelColor=1a1a2e" alt="Stars" />
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-4ECDC4?style=for-the-badge&logo=platformio&labelColor=1a1a2e" alt="Platform" />
+    <img src="https://img.shields.io/badge/AI-Powered%20Assistant-FF6B9D?style=for-the-badge&logo=openai&labelColor=1a1a2e" alt="AI Powered" />
+    <img src="https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge&labelColor=1a1a2e" alt="Status" />
+  </p>
+
+  <br/>
+
+  <!-- Project Description -->
+  <p>
+    <strong>A modular IoT security testing framework inspired by Metasploit.</strong><br>
+    Built for hardware hackers, firmware analysts, and IoT security researchers.
+  </p>
+
+  <!-- Quick Links -->
+  <p>
+    <a href="#-quick-start"><img src="https://img.shields.io/badge/%F0%9F%9A%80-Quick%20Start-00D4AA?style=for-the-badge" alt="Quick Start" /></a>
+    <a href="#-features"><img src="https://img.shields.io/badge/%E2%9A%A1-Features-FF6B6B?style=for-the-badge" alt="Features" /></a>
+    <a href="#-modules"><img src="https://img.shields.io/badge/%F0%9F%94%A7-Modules-4ECDC4?style=for-the-badge" alt="Modules" /></a>
+    <a href="#-contributing"><img src="https://img.shields.io/badge/%F0%9F%A4%9D-Contribute-FFD93D?style=for-the-badge" alt="Contribute" /></a>
+  </p>
+
+</div>
+
+---
+
+<!-- Animated Wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&animation=twinkling&fontColor=fff" />
+
+## 📖 Overview
 
 **IoTwizz** is a comprehensive, open-source penetration testing framework specifically engineered for the Internet of Things (IoT) landscape. Inspired by the modular and extensible architecture of Metasploit, IoTwizz serves as a "Swiss Army Knife" for security researchers, hardware hackers, and penetration testers who need a unified toolkit to audit embedded devices, analyze firmware, and test hardware-level protocols.
 
-As the IoT ecosystem expands, the attack surface grows exponentially—from exposed UART and JTAG debug interfaces on circuit boards to hardcoded credentials and vulnerable bootloaders. IoTwizz bridges the gap between hardware and software exploitation by providing an interactive, centralized console (powered by `prompt-toolkit` and `rich`) to manage complex security assessments. Out of the box, the framework includes a suite of powerful core modules: a **Baud Rate Finder** to seamlessly auto-detect UART serial communication speeds, a **U-Boot Breaker** designed to interrupt bootloader sequences and acquire low-level hardware root shells, a universal **Default Credential Checker** loaded with hundreds of known IoT default logins to test against SSH, Telnet, HTTP, and FTP, and a **Firmware Analyzer** that leverages Binwalk for signature scanning and entropy analysis.
+As the IoT ecosystem expands, the attack surface grows exponentially—from exposed UART and JTAG debug interfaces on circuit boards to hardcoded credentials and vulnerable bootloaders. IoTwizz bridges the gap between hardware and software exploitation by providing an interactive, centralized console (powered by `prompt-toolkit` and `rich`) to manage complex security assessments.
 
-Moreover, IoTwizz introduces **AiWizz** — a cutting-edge interactive hacking assistant powered by Large Language Models (supporting Gemini, OpenAI, Claude, and Ollama). This AI agent acts as your copilot, integrating directly into the console to accept natural language commands. AiWizz can autonomously select, configure, and execute internal IoTwizz modules on your behalf, subsequently parsing the tool output to provide actionable intelligence, vulnerability explanations, and step-by-step remediation advice.
+> 🤖 **Meet AiWizz** — An interactive AI hacking assistant powered by Large Language Models (Gemini, OpenAI, Claude, Ollama) that can autonomously select, configure, and execute modules on your behalf!
 
-Designed with a highly robust and dynamic plugin architecture, developers and researchers can easily write and drop new Python modules into the framework to support specialized attack vectors like JTAG/SWD scanning, SPI flash dumping, Bluetooth Low Energy (BLE) sniffing, and MQTT/CoAP protocol fuzzing. Whether you are reverse-engineering a rogue smart camera, assessing a fleet of enterprise routers, or securing an industrial control system, IoTwizz delivers the automation, flexibility, and AI-driven intelligence required to uncover critical vulnerabilities at the edge.
+```
+    __    _____       __      __
+   / /_  /__  / _____/ /___ _/ /_____ _
+  / __/    / / / ___/ / __ `/ __/ __ `/
+ / /_     / / / /__/ / /_/ / /_/ /_/ /
+ \__/    /___/\___/_/\__,_/\__/\__,_/
 
+```
 
 ---
 
 ## ⚡ Features
 
+<div align="center">
+
 | Category | Module | Status | Description |
-|----------|--------|--------|-------------|
+|:--------:|:-------|:------:|:------------|
 | **UART** | `uart/baud_rate_finder` | ✅ Ready | Auto-detect UART baud rates |
 | **Exploit** | `exploit/uboot_breaker` | ✅ Ready | Intercept U-Boot & gain shell |
-| **Recon** | `recon/default_creds` | ✅ Ready | Test IoT default credentials (SSH/Telnet/HTTP/FTP) |
-| **Firmware** | `firmware/binwalk_analyzer` | ✅ Ready | Firmware analysis, extraction & string search |
-| **AI** | `ai/aiwizz` | ✅ Ready | Interactive AI hacking assistant (Gemini/OpenAI/Claude/Ollama) |
+| **Recon** | `recon/default_creds` | ✅ Ready | Test IoT default credentials |
+| **Firmware** | `firmware/binwalk_analyzer` | ✅ Ready | Firmware analysis & extraction |
+| **AI** | `ai/aiwizz` | ✅ Ready | Interactive AI hacking assistant |
 | **Hardware** | `hardware/jtag_swd_scanner` | ✅ Ready | JTAG/SWD debug interface scanner |
 | **Hardware** | `hardware/spi_flash_dumper` | ✅ Ready | SPI flash firmware dumper |
 | **Protocol** | `protocol/mqtt_fuzzer` | ✅ Ready | MQTT protocol fuzzer |
@@ -34,63 +80,64 @@ Designed with a highly robust and dynamic plugin architecture, developers and re
 | **Wireless** | `wireless/ble_scanner` | ✅ Ready | Bluetooth Low Energy scanner |
 | **Wireless** | `wireless/zigbee_sniffer` | ✅ Ready | Zigbee/Z-Wave sniffer |
 
+</div>
+
 ---
 
 ## 🚀 Quick Start
 
-### Installation
+### 📦 Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/khushalmistry/iotwizz.git
 cd iotwizz
 
-# Install dependencies (Optional if using the standalone binary)
+# Install dependencies
 pip install -r requirements.txt
 
 # Install IoTwizz
 pip install -e .
 
-# Launch using Python!
+# Launch!
 iotwizz
 ```
 
-### Standalone Binary (No Python Required)
-For macOS users, a fully self-contained binary is provided in the `dist` directory. You do not need to install Python or any dependencies to use it.
+### 🔥 Standalone Binary (No Python Required)
+
+For macOS users, a fully self-contained binary is provided:
 
 ```bash
-# Run the standalone executable directly
 ./dist/iotwizz
 ```
 
-### Usage
+### 💡 Basic Usage
 
-```
-iotwizz > show modules          # List all modules
-iotwizz > use uart/baud_rate_finder   # Select a module
-iotwizz(uart/baud_rate_finder) > info         # View module info
-iotwizz(uart/baud_rate_finder) > set PORT /dev/ttyUSB0  # Set options
-iotwizz(uart/baud_rate_finder) > run          # Execute!
+```bash
+iotwizz > show modules                      # List all modules
+iotwizz > use uart/baud_rate_finder         # Select a module
+iotwizz(uart/baud_rate_finder) > info       # View module info
+iotwizz(uart/baud_rate_finder) > set PORT /dev/ttyUSB0
+iotwizz(uart/baud_rate_finder) > run        # Execute!
 ```
 
 ---
 
-## 📖 Module Quick Reference
+## 🔧 Module Showcase
 
 ### 🔌 UART Baud Rate Finder
-Automatically detects the baud rate of a UART serial connection by testing common rates.
+Automatically detects the baud rate of UART serial connections.
 
-```
+```bash
 iotwizz > use uart/baud_rate_finder
 iotwizz(uart/baud_rate_finder) > set PORT /dev/ttyUSB0
-iotwizz(uart/baud_rate_finder) > set LIST_PORTS true
 iotwizz(uart/baud_rate_finder) > run
 ```
 
 ### 🔓 U-Boot Breaker
-Intercepts U-Boot boot sequence to gain bootloader shell access.
+Intercept U-Boot boot sequence to gain bootloader shell access.
 
-```
+```bash
 iotwizz > use exploit/uboot_breaker
 iotwizz(exploit/uboot_breaker) > set PORT /dev/ttyUSB0
 iotwizz(exploit/uboot_breaker) > set BAUD_RATE 115200
@@ -101,7 +148,7 @@ iotwizz(exploit/uboot_breaker) > run
 ### 🔑 Default Credential Checker
 Tests IoT devices for default/known credentials over SSH, Telnet, HTTP, or FTP.
 
-```
+```bash
 iotwizz > use recon/default_creds
 iotwizz(recon/default_creds) > set TARGET 192.168.1.1
 iotwizz(recon/default_creds) > set SERVICE ssh
@@ -109,37 +156,31 @@ iotwizz(recon/default_creds) > run
 ```
 
 ### 📦 Firmware Analyzer
-Analyzes firmware images using binwalk — signature scan, entropy, extraction, and string search.
+Analyzes firmware images using binwalk — signature scan, entropy, extraction.
 
-```
+```bash
 iotwizz > use firmware/binwalk_analyzer
-iotwizz(firmware/binwalk_analyzer) > set FIRMWARE_FILE ./router_firmware.bin
+iotwizz(firmware/binwalk_analyzer) > set FIRMWARE_FILE ./firmware.bin
 iotwizz(firmware/binwalk_analyzer) > set EXTRACT true
 iotwizz(firmware/binwalk_analyzer) > run
 ```
 
-### 🤖 AiWizz (Interactive Hacking Assistant)
-Talk to an AI expert that can autonomously control the IoTwizz framework, run modules, and analyze output for you.
+### 🤖 AiWizz (AI Hacking Assistant)
+Talk to an AI expert that controls IoTwizz and analyzes results for you.
 
-```
+```bash
 iotwizz > use ai/aiwizz
 iotwizz(ai/aiwizz) > set PROVIDER gemini
-iotwizz(ai/aiwizz) > set API_KEY your_api_key_here
+iotwizz(ai/aiwizz) > set API_KEY your_key_here
 iotwizz(ai/aiwizz) > run
-AiWizz > "I want you to scan 192.168.1.1 for default SSH credentials"
+AiWizz > "Scan 192.168.1.1 for default SSH credentials"
 ```
 
 ---
 
 ## 🏗️ Creating Custom Modules
 
-IoTwizz has a plugin architecture. To add a new module:
-
-1. Create a new `.py` file in the appropriate `iotwizz/modules/<category>/` directory
-2. Inherit from `BaseModule` (or `StubModule` for placeholders)
-3. Define `name`, `description`, `author`, `category`, `options`
-4. Implement the `run()` method
-5. IoTwizz will auto-discover your module!
+IoTwizz has a powerful plugin architecture. Add new modules in 5 steps:
 
 ```python
 from iotwizz.base_module import BaseModule
@@ -163,54 +204,123 @@ class MyCustomModule(BaseModule):
     def run(self):
         target = self.get_option("TARGET")
         info(f"Scanning {target}...")
-        # Your exploit/scan logic here
+        # Your exploit logic here
         success("Done!")
 ```
+
+1. Create `.py` in `iotwizz/modules/<category>/`
+2. Inherit from `BaseModule`
+3. Define `name`, `description`, `author`, `category`, `options`
+4. Implement `run()` method
+5. Auto-discovery handles the rest!
 
 ---
 
 ## 📋 Requirements
 
-- Python 3.8+
-- `pyserial` — Serial/UART communication
-- `rich` — Beautiful terminal output
-- `prompt-toolkit` — Interactive console
-- `paramiko` — SSH connections
-- `requests` — HTTP requests
-- `scapy` — Network packet crafting
-- `paho-mqtt` — MQTT protocol
-- `google-generativeai`, `openai`, `anthropic` — For AiWizz mode
+### Core Dependencies
+```
+python >= 3.8
+pyserial        # Serial/UART communication
+rich             # Beautiful terminal output
+prompt-toolkit   # Interactive console
+paramiko         # SSH connections
+requests         # HTTP requests
+scapy            # Network packet crafting
+paho-mqtt        # MQTT protocol
+```
 
-Optional:
-- `binwalk` — Firmware analysis (system package)
+### AI Providers (Optional)
+```
+google-generativeai   # Gemini
+openai                # GPT models
+anthropic             # Claude
+ollama                # Local LLMs
+```
+
+### Optional
+```
+binwalk          # Firmware analysis (system package)
+```
 
 ---
 
-## ⚠️ Legal Disclaimer
+## 🛡️ Security & Disclaimer
 
-**IoTwizz is intended for authorized security testing only.** Only use this tool on devices and networks you own or have explicit written permission to test. Unauthorized access to computer systems is illegal. The authors are not responsible for any misuse.
+> **⚠️ IMPORTANT**: IoTwizz is intended for **authorized security testing only**.
+
+- Only use on devices and networks you **own** or have **explicit written permission** to test
+- Unauthorized access to computer systems is **illegal**
+- The authors assume **no liability** for misuse or damage
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how:
+We welcome contributions from the security community!
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-module`)
-3. Add your module to `iotwizz/modules/<category>/`
-4. Test thoroughly
-5. Submit a Pull Request
+```bash
+# 1. Fork the repository
+# 2. Create your feature branch
+git checkout -b feature/amazing-module
+
+# 3. Add your module to iotwizz/modules/<category>/
+# 4. Test thoroughly
+# 5. Submit a Pull Request
+```
+
+**Contributing Guidelines:**
+- Follow the existing code style
+- Add documentation for new modules
+- Include error handling
+- Test on real hardware when possible
 
 ---
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](http://creativecommons.org/licenses/by-nc/4.0/)
+
+**You are free to:**
+- ✅ Share — copy and redistribute the material
+- ✅ Adapt — remix, transform, and build upon the material
+
+**Under the following terms:**
+- 📌 Attribution — You must give appropriate credit
+- 🚫 **NonCommercial** — You may not use the material for commercial purposes
 
 ---
 
-<p align="center">
-  <strong>⚡ Built by <a href="https://github.com/khushalmistry">Khushal Mistry</a> ⚡</strong><br>
-  <em>Happy Hacking! 💀</em>
-</p>
+## 🙏 Acknowledgments
+
+- Inspired by [Metasploit Framework](https://www.metasploit.com/)
+- Built with [Rich](https://github.com/Textualize/rich) & [prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit)
+- Thanks to the IoT security research community
+
+---
+
+<!-- Footer -->
+<div align="center">
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling" />
+
+  <br/>
+
+  <strong>⚡ Built by <a href="https://github.com/khushalmistry">Khushal Mistry</a> ⚡</strong>
+
+  <p>
+    <a href="https://github.com/khushalmistry"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  </p>
+
+  <br/>
+
+  <em>Happy Hacking! 💀🔧</em>
+
+  <br/><br/>
+
+  <!-- Profile Views Counter -->
+  <img src="https://komarev.com/ghpvc/?username=khushalmistry&repo=iotwizz&color=00D4AA&style=for-the-badge" alt="Profile Views" />
+
+</div>
