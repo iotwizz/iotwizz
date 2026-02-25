@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Animated Header / Logo Area -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=%F0%9F%94%A7+IoTwizz;IoT+Security+Testing+Framework;Modular+%7C+AI-Powered+%7C+Open+Source" alt="IoTwizz Header" />
+  <!-- Animated Header -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=500&lines=IoTwizz;IoT+Security+Testing+Framework;Modular+%7C+AI-Powered+%7C+Open+Source" alt="IoTwizz Header" />
 
   <br/><br/>
 
@@ -30,63 +30,53 @@
 
   <!-- Quick Links -->
   <p>
-    <a href="#-quick-start"><img src="https://img.shields.io/badge/%F0%9F%9A%80-Quick%20Start-00D4AA?style=for-the-badge" alt="Quick Start" /></a>
-    <a href="#-features"><img src="https://img.shields.io/badge/%E2%9A%A1-Features-FF6B6B?style=for-the-badge" alt="Features" /></a>
-    <a href="#-modules"><img src="https://img.shields.io/badge/%F0%9F%94%A7-Modules-4ECDC4?style=for-the-badge" alt="Modules" /></a>
-    <a href="#-contributing"><img src="https://img.shields.io/badge/%F0%9F%A4%9D-Contribute-FFD93D?style=for-the-badge" alt="Contribute" /></a>
+    <a href="#quick-start"><img src="https://img.shields.io/badge/Quick%20Start-00D4AA?style=for-the-badge" alt="Quick Start" /></a>
+    <a href="#features"><img src="https://img.shields.io/badge/Features-FF6B6B?style=for-the-badge" alt="Features" /></a>
+    <a href="#modules"><img src="https://img.shields.io/badge/Modules-4ECDC4?style=for-the-badge" alt="Modules" /></a>
+    <a href="#contributing"><img src="https://img.shields.io/badge/Contribute-FFD93D?style=for-the-badge" alt="Contribute" /></a>
   </p>
 
 </div>
 
 ---
 
-<!-- Animated Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&animation=twinkling&fontColor=fff" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=header&animation=twinkling&fontColor=fff" />
 
-## 📖 Overview
+## Overview
 
 **IoTwizz** is a comprehensive, open-source penetration testing framework specifically engineered for the Internet of Things (IoT) landscape. Inspired by the modular and extensible architecture of Metasploit, IoTwizz serves as a "Swiss Army Knife" for security researchers, hardware hackers, and penetration testers who need a unified toolkit to audit embedded devices, analyze firmware, and test hardware-level protocols.
 
 As the IoT ecosystem expands, the attack surface grows exponentially—from exposed UART and JTAG debug interfaces on circuit boards to hardcoded credentials and vulnerable bootloaders. IoTwizz bridges the gap between hardware and software exploitation by providing an interactive, centralized console (powered by `prompt-toolkit` and `rich`) to manage complex security assessments.
 
-> 🤖 **Meet AiWizz** — An interactive AI hacking assistant powered by Large Language Models (Gemini, OpenAI, Claude, Ollama) that can autonomously select, configure, and execute modules on your behalf!
-
-```
-    __    _____       __      __
-   / /_  /__  / _____/ /___ _/ /_____ _
-  / __/    / / / ___/ / __ `/ __/ __ `/
- / /_     / / / /__/ / /_/ / /_/ /_/ /
- \__/    /___/\___/_/\__,_/\__/\__,_/
-
-```
+> **Meet AiWizz** — An interactive AI hacking assistant powered by Large Language Models (Gemini, OpenAI, Claude, Ollama) that can autonomously select, configure, and execute modules on your behalf!
 
 ---
 
-## ⚡ Features
+## Features
 
 <div align="center">
 
 | Category | Module | Status | Description |
 |:--------:|:-------|:------:|:------------|
-| **UART** | `uart/baud_rate_finder` | ✅ Ready | Auto-detect UART baud rates |
-| **Exploit** | `exploit/uboot_breaker` | ✅ Ready | Intercept U-Boot & gain shell |
-| **Recon** | `recon/default_creds` | ✅ Ready | Test IoT default credentials |
-| **Firmware** | `firmware/binwalk_analyzer` | ✅ Ready | Firmware analysis & extraction |
-| **AI** | `ai/aiwizz` | ✅ Ready | Interactive AI hacking assistant |
-| **Hardware** | `hardware/jtag_swd_scanner` | ✅ Ready | JTAG/SWD debug interface scanner |
-| **Hardware** | `hardware/spi_flash_dumper` | ✅ Ready | SPI flash firmware dumper |
-| **Protocol** | `protocol/mqtt_fuzzer` | ✅ Ready | MQTT protocol fuzzer |
-| **Protocol** | `protocol/coap_fuzzer` | ✅ Ready | CoAP protocol fuzzer |
-| **Wireless** | `wireless/ble_scanner` | ✅ Ready | Bluetooth Low Energy scanner |
-| **Wireless** | `wireless/zigbee_sniffer` | ✅ Ready | Zigbee/Z-Wave sniffer |
+| **UART** | `uart/baud_rate_finder` | Ready | Auto-detect UART baud rates |
+| **Exploit** | `exploit/uboot_breaker` | Ready | Intercept U-Boot & gain shell |
+| **Recon** | `recon/default_creds` | Ready | Test IoT default credentials |
+| **Firmware** | `firmware/binwalk_analyzer` | Ready | Firmware analysis & extraction |
+| **AI** | `ai/aiwizz` | Ready | Interactive AI hacking assistant |
+| **Hardware** | `hardware/jtag_swd_scanner` | Ready | JTAG/SWD debug interface scanner |
+| **Hardware** | `hardware/spi_flash_dumper` | Ready | SPI flash firmware dumper |
+| **Protocol** | `protocol/mqtt_fuzzer` | Ready | MQTT protocol fuzzer |
+| **Protocol** | `protocol/coap_fuzzer` | Ready | CoAP protocol fuzzer |
+| **Wireless** | `wireless/ble_scanner` | Ready | Bluetooth Low Energy scanner |
+| **Wireless** | `wireless/zigbee_sniffer` | Ready | Zigbee/Z-Wave sniffer |
 
 </div>
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### 📦 Installation
+### Installation
 
 ```bash
 # Clone the repository
@@ -103,7 +93,7 @@ pip install -e .
 iotwizz
 ```
 
-### 🔥 Standalone Binary (No Python Required)
+### Standalone Binary (No Python Required)
 
 For macOS users, a fully self-contained binary is provided:
 
@@ -111,7 +101,7 @@ For macOS users, a fully self-contained binary is provided:
 ./dist/iotwizz
 ```
 
-### 💡 Basic Usage
+### Basic Usage
 
 ```bash
 iotwizz > show modules                      # List all modules
@@ -123,9 +113,9 @@ iotwizz(uart/baud_rate_finder) > run        # Execute!
 
 ---
 
-## 🔧 Module Showcase
+## Modules
 
-### 🔌 UART Baud Rate Finder
+### UART Baud Rate Finder
 Automatically detects the baud rate of UART serial connections.
 
 ```bash
@@ -134,7 +124,7 @@ iotwizz(uart/baud_rate_finder) > set PORT /dev/ttyUSB0
 iotwizz(uart/baud_rate_finder) > run
 ```
 
-### 🔓 U-Boot Breaker
+### U-Boot Breaker
 Intercept U-Boot boot sequence to gain bootloader shell access.
 
 ```bash
@@ -145,7 +135,7 @@ iotwizz(exploit/uboot_breaker) > run
 # Power cycle the device when prompted!
 ```
 
-### 🔑 Default Credential Checker
+### Default Credential Checker
 Tests IoT devices for default/known credentials over SSH, Telnet, HTTP, or FTP.
 
 ```bash
@@ -155,7 +145,7 @@ iotwizz(recon/default_creds) > set SERVICE ssh
 iotwizz(recon/default_creds) > run
 ```
 
-### 📦 Firmware Analyzer
+### Firmware Analyzer
 Analyzes firmware images using binwalk — signature scan, entropy, extraction.
 
 ```bash
@@ -165,7 +155,7 @@ iotwizz(firmware/binwalk_analyzer) > set EXTRACT true
 iotwizz(firmware/binwalk_analyzer) > run
 ```
 
-### 🤖 AiWizz (AI Hacking Assistant)
+### AiWizz (AI Hacking Assistant)
 Talk to an AI expert that controls IoTwizz and analyzes results for you.
 
 ```bash
@@ -178,7 +168,7 @@ AiWizz > "Scan 192.168.1.1 for default SSH credentials"
 
 ---
 
-## 🏗️ Creating Custom Modules
+## Creating Custom Modules
 
 IoTwizz has a powerful plugin architecture. Add new modules in 5 steps:
 
@@ -216,7 +206,7 @@ class MyCustomModule(BaseModule):
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 ### Core Dependencies
 ```
@@ -245,9 +235,9 @@ binwalk          # Firmware analysis (system package)
 
 ---
 
-## 🛡️ Security & Disclaimer
+## Security Disclaimer
 
-> **⚠️ IMPORTANT**: IoTwizz is intended for **authorized security testing only**.
+> **IMPORTANT**: IoTwizz is intended for **authorized security testing only**.
 
 - Only use on devices and networks you **own** or have **explicit written permission** to test
 - Unauthorized access to computer systems is **illegal**
@@ -255,7 +245,7 @@ binwalk          # Firmware analysis (system package)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the security community!
 
@@ -277,23 +267,23 @@ git checkout -b feature/amazing-module
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](http://creativecommons.org/licenses/by-nc/4.0/)
 
 **You are free to:**
-- ✅ Share — copy and redistribute the material
-- ✅ Adapt — remix, transform, and build upon the material
+- Share — copy and redistribute the material
+- Adapt — remix, transform, and build upon the material
 
 **Under the following terms:**
-- 📌 Attribution — You must give appropriate credit
-- 🚫 **NonCommercial** — You may not use the material for commercial purposes
+- Attribution — You must give appropriate credit
+- **NonCommercial** — You may not use the material for commercial purposes
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by [Metasploit Framework](https://www.metasploit.com/)
 - Built with [Rich](https://github.com/Textualize/rich) & [prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit)
@@ -304,11 +294,11 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 <!-- Footer -->
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer&animation=twinkling" />
 
   <br/>
 
-  <strong>⚡ Built by <a href="https://github.com/khushalmistry">Khushal Mistry</a> ⚡</strong>
+  <strong>Built by <a href="https://github.com/khushalmistry">Khushal Mistry</a></strong>
 
   <p>
     <a href="https://github.com/khushalmistry"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -316,11 +306,10 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 
   <br/>
 
-  <em>Happy Hacking! 💀🔧</em>
+  <em>Happy Hacking!</em>
 
   <br/><br/>
 
-  <!-- Profile Views Counter -->
   <img src="https://komarev.com/ghpvc/?username=khushalmistry&repo=iotwizz&color=00D4AA&style=for-the-badge" alt="Profile Views" />
 
 </div>
