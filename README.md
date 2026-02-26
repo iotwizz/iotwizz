@@ -1,7 +1,7 @@
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="Dark logo.png" />
+    <source media="(prefers-color-scheme: dark)" srcset="Dark%20logo.png" />
     <source media="(prefers-color-scheme: light)" srcset="logo.png" />
     <img src="logo.png" alt="IoTwizz Logo" width="400" />
   </picture>
