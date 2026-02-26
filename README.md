@@ -46,15 +46,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=header&animation=twinkling&fontColor=fff" />
 
-```
-    ██╗ ██████╗ ████████╗██╗    ██╗██╗███████╗███████╗
-    ██║██╔═══██╗╚══██╔══╝██║    ██║██║╚══███╔╝╚══███╔╝
-    ██║██║   ██║   ██║   ██║ █╗ ██║██║  ███╔╝   ███╔╝
-    ██║██║   ██║   ██║   ██║███╗██║██║ ███╔╝   ███╔╝
-    ██║╚██████╔╝   ██║   ╚███╔███╔╝██║███████╗███████╗
-    ╚═╝ ╚═════╝    ╚═╝    ╚══╝╚══╝ ╚═╝╚══════╝╚══════╝
-```
-
 ## Overview
 
 IoTwizz is a comprehensive, open-source penetration testing framework specifically engineered for the Internet of Things (IoT) landscape. 🔧 Inspired by the modular and extensible architecture of Metasploit, IoTwizz serves as a Swiss Army Knife for security researchers, hardware hackers, and penetration testers who need a unified toolkit to audit embedded devices, analyze firmware, and test hardware-level protocols.
