@@ -1,15 +1,19 @@
 <div align="center">
 
+  <img src="logo.png" alt="IoTwizz Logo" width="400" />
+
+  <br/>
+
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=500&lines=IoTwizz;IoT+Security+Testing+Framework;Modular+|+AI-Powered+|+Open+Source" alt="IoTwizz Header" />
 
   <br/><br/>
 
   <p>
-    <img src="https://img.shields.io/github/license/khushalmistry/iotwizz?style=for-the-badge&color=CC0000&label=License&labelColor=1a1a2e" alt="License" />
+    <img src="https://img.shields.io/github/license/iotwizz/iotwizz?style=for-the-badge&color=CC0000&label=License&labelColor=1a1a2e" alt="License" />
     <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e" alt="Python" />
-    <img src="https://img.shields.io/github/repo-size/khushalmistry/iotwizz?style=for-the-badge&color=00D4AA&label=Size&labelColor=1a1a2e" alt="Repo Size" />
-    <img src="https://img.shields.io/github/last-commit/khushalmistry/iotwizz?style=for-the-badge&color=FF6B6B&label=Last+Commit&labelColor=1a1a2e" alt="Last Commit" />
-    <img src="https://img.shields.io/github/stars/khushalmistry/iotwizz?style=for-the-badge&color=FFD93D&label=Stars&labelColor=1a1a2e" alt="Stars" />
+    <img src="https://img.shields.io/github/repo-size/iotwizz/iotwizz?style=for-the-badge&color=00D4AA&label=Size&labelColor=1a1a2e" alt="Repo Size" />
+    <img src="https://img.shields.io/github/last-commit/iotwizz/iotwizz?style=for-the-badge&color=FF6B6B&label=Last+Commit&labelColor=1a1a2e" alt="Last Commit" />
+    <img src="https://img.shields.io/github/stars/iotwizz/iotwizz?style=for-the-badge&color=FFD93D&label=Stars&labelColor=1a1a2e" alt="Stars" />
   </p>
 
   <p>
@@ -85,7 +89,7 @@ As the IoT ecosystem expands, the attack surface grows exponentially, from expos
 
 ```bash
 # Clone the repository
-git clone https://github.com/khushalmistry/iotwizz.git
+git clone https://github.com/iotwizz/iotwizz.git
 cd iotwizz
 
 # Install dependencies
